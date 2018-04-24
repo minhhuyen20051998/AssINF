@@ -36,7 +36,7 @@
             id_Danhmuc:
             <asp:Label ID="id_DanhmucLabel" runat="server" Text='<%# Eval("id_Danhmuc") %>' />
             <br />
-            Tendanhmuc:
+            Tên danh mục:
             <asp:Label ID="TendanhmucLabel" runat="server" Text='<%# Bind("Tendanhmuc") %>' />
             <br />
             id_Danhmuccha:
