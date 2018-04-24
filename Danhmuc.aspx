@@ -33,7 +33,7 @@
             &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
         </InsertItemTemplate>
         <ItemTemplate>
-            id_Danhmuc:
+            mã danh mục:
             <asp:Label ID="id_DanhmucLabel" runat="server" Text='<%# Eval("id_Danhmuc") %>' />
             <br />
             Tên danh mục:
