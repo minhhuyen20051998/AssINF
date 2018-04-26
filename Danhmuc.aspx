@@ -34,7 +34,7 @@
         </InsertItemTemplate>
         <ItemTemplate>
             
-            <asp:Label class="ma">mã danh mục:</asp:Label>
+            mã danh mục:
             <asp:Label ID="id_DanhmucLabel" runat="server" Text='<%# Eval("id_Danhmuc") %>' />
             <br />
             Tên danh mục:
@@ -44,7 +44,7 @@
             <asp:Label ID="id_DanhmucchaLabel" runat="server" Text='<%# Bind("id_Danhmuccha") %>' />
             <br />
             <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" />
-            &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" CssClass="btn btn-success"/>
+            &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />
             &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
         </ItemTemplate>
     </asp:FormView>
