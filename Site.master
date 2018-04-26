@@ -24,12 +24,22 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+<<<<<<< HEAD
    <style>
        .mk
        {
            color:#f00;
        }
    </style>
+=======
+    <style>
+        .ma
+        {
+            color:#440000;
+            
+        }
+    </style>
+>>>>>>> ea71a35655fd6744b35f629b40cb60c13906a9bf
 </head>
 <body>
     <form runat="server">

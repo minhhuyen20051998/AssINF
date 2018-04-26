@@ -48,7 +48,8 @@
             id_Sanpham:
             <asp:Label ID="id_SanphamLabel" runat="server" Text='<%# Bind("id_Sanpham") %>' />
             <br />
-            Soluong:
+          
+            <asp:Label class="soluong" > Soluong:</asp:Label>
             <asp:Label ID="SoluongLabel" runat="server" Text='<%# Bind("Soluong") %>' />
             <br />
             <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" />
