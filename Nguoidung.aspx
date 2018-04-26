@@ -11,6 +11,7 @@
             <asp:Label ID="id_NDLabel1" runat="server" Text='<%# Eval("id_ND") %>' />
             <br />
             TenND:
+            
             <asp:TextBox ID="TenNDTextBox" runat="server" Text='<%# Bind("TenND") %>' />
             <br />
             email:
@@ -54,7 +55,7 @@
             id_ND:
             <asp:Label ID="id_NDLabel" runat="server" Text='<%# Eval("id_ND") %>' />
             <br />
-            TenND:
+           
             <asp:Label ID="TenNDLabel" runat="server" Text='<%# Bind("TenND") %>' />
             <br />
             email:
@@ -63,13 +64,14 @@
             Tentaikhoan:
             <asp:Label ID="TentaikhoanLabel" runat="server" Text='<%# Bind("Tentaikhoan") %>' />
             <br />
-            Matkhau:
+            
+            <asp:Label class="mk">Mật Khẩu:</asp:Label>
             <asp:Label ID="MatkhauLabel" runat="server" Text='<%# Bind("Matkhau") %>' />
             <br />
             kieutaikhoan:
             <asp:Label ID="kieutaikhoanLabel" runat="server" Text='<%# Bind("kieutaikhoan") %>' />
             <br />
-            <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" />
+            <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" CssClass ="btn btn-default"  />
             &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />
             &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
         </ItemTemplate>
