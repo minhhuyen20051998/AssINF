@@ -25,9 +25,10 @@
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
     <style>
-        .soluong
+        .ma
         {
-            color:#ff006e;
+            color:#440000;
+            
         }
     </style>
 </head>
