@@ -80,7 +80,7 @@
             <br />
             <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" />
             &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />
-            &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
+            &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" CssClass="btn btn-warning" />
         </ItemTemplate>
     </asp:FormView>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\CSDL_QLBS2.mdf;Integrated Security=True" DeleteCommand="DELETE FROM [Hoadon] WHERE [id_Hoadon] = @id_Hoadon" InsertCommand="INSERT INTO [Hoadon] ([id_Hoadon], [id_nd], [TenND], [id_Sanpham], [Soluong], [thanhtien], [NgayTaoHD]) VALUES (@id_Hoadon, @id_nd, @TenND, @id_Sanpham, @Soluong, @thanhtien, @NgayTaoHD)" ProviderName="System.Data.SqlClient" SelectCommand="SELECT [id_Hoadon], [id_nd], [TenND], [id_Sanpham], [Soluong], [thanhtien], [NgayTaoHD] FROM [Hoadon]" UpdateCommand="UPDATE [Hoadon] SET [id_nd] = @id_nd, [TenND] = @TenND, [id_Sanpham] = @id_Sanpham, [Soluong] = @Soluong, [thanhtien] = @thanhtien, [NgayTaoHD] = @NgayTaoHD WHERE [id_Hoadon] = @id_Hoadon">

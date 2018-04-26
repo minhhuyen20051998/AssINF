@@ -24,6 +24,12 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <style>
+        .soluong
+        {
+            color:#ff006e;
+        }
+    </style>
 </head>
 <body>
     <form runat="server">
