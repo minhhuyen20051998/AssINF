@@ -23,7 +23,8 @@
             &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
         </EditItemTemplate>
         <InsertItemTemplate>
-            id_Chitiethoadon:
+           
+            id_Chitiethoadon: 
             <asp:TextBox ID="id_ChitiethoadonTextBox" runat="server" Text='<%# Bind("id_Chitiethoadon") %>' />
             <br />
             id_hoadon:
@@ -39,6 +40,7 @@
             &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
         </InsertItemTemplate>
         <ItemTemplate>
+           
             id_Chitiethoadon:
             <asp:Label ID="id_ChitiethoadonLabel" runat="server" Text='<%# Eval("id_Chitiethoadon") %>' />
             <br />
