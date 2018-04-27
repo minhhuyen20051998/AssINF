@@ -23,7 +23,8 @@
             &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
         </EditItemTemplate>
         <InsertItemTemplate>
-            id_Chitiethoadon:
+           
+            id_Chitiethoadon: 
             <asp:TextBox ID="id_ChitiethoadonTextBox" runat="server" Text='<%# Bind("id_Chitiethoadon") %>' />
             <br />
             id_hoadon:
@@ -39,7 +40,8 @@
             &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
         </InsertItemTemplate>
         <ItemTemplate>
-            id_Chitiethoadon:
+           
+              id_Chitiethoadon:
             <asp:Label ID="id_ChitiethoadonLabel" runat="server" Text='<%# Eval("id_Chitiethoadon") %>' />
             <br />
             id_hoadon:
@@ -52,8 +54,8 @@
             soluong:
             <asp:Label ID="SoluongLabel" runat="server" Text='<%# Bind("Soluong") %>' />
             <br />
-            <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" />
-            &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />
+            <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit"/>
+            &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete"  />
             &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
         </ItemTemplate>
     </asp:FormView>
