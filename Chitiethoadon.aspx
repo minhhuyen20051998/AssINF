@@ -8,7 +8,7 @@
     <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_Chitiethoadon" DataSourceID="SqlDataSource1">
         <EditItemTemplate>
             id_Chitiethoadon:
-            <asp:Label ID="id_ChitiethoadonLabel1" runat="server" Text='<%# Eval("id_Chitiethoadon") %>' />
+            <asp:Label class ="textma" ID="id_ChitiethoadonLabel1" runat="server" Text='<%# Eval("id_Chitiethoadon") %>' />
             <br />
             id_hoadon:
             <asp:TextBox ID="id_hoadonTextBox" runat="server" Text='<%# Bind("id_hoadon") %>' />

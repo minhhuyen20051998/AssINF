@@ -29,6 +29,24 @@
      {
          color:#00ff21;
      }
+     .ma {
+         color:#f00;
+     }
+     .ten {
+         color:#f00;
+     }
+     .macha {
+         color:#f00;
+     }
+     .textma {
+         color:#f00;
+     }
+     .textten {
+         color:#f00;
+     }
+     .textmacha {
+         color:#f00;
+     }
  </style>
 
 </head>
