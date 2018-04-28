@@ -52,32 +52,36 @@
             &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
         </InsertItemTemplate>
         <ItemTemplate>
-            
+            <asp:Label class="abc">id_ND:
          
-            <div class="abc">id_ND: </div>            
+           
+                     
             <asp:Label ID="id_NDLabel" runat="server" Text='<%# Eval("id_ND") %>' />
-            <br />
+            <br /></asp:Label>
 
-            <div class="abc">TenND: </div>    
+         
+            <asp:Label class="abc">TenND:
             <asp:Label ID="TenNDLabel" runat="server" Text='<%# Bind("TenND") %>' />
-            <br />
+            <br /></asp:Label>  
 
-            <div class="abc"> email:</div>  
+            <asp:Label class="abc">email
             <asp:Label ID="emailLabel" runat="server" Text='<%# Bind("email") %>' />
-            <br />
+            <br /></asp:Label>  
     
-            <div class="abc">Tentaikhoan:</div>  
+          
+            <asp:Label class="abc">Tentaikhoan 
             <asp:Label ID="TentaikhoanLabel" runat="server" Text='<%# Bind("Tentaikhoan") %>' />
-            <br />
+            <br /></asp:Label>
 
-            <div class="abc">Matkhau: </div>  
-
+        
+            <asp:Label class="abc">Matkhau: 
             <asp:Label ID="MatkhauLabel" runat="server" Text='<%# Bind("Matkhau") %>' />
-            <br />
+            <br /></asp:Label>
 
-            <div class="abc">Kieutaikhoan:</div>  
+           
+            <asp:Label class="abc">TenND:
             <asp:Label ID="kieutaikhoanLabel" runat="server" Text='<%# Bind("kieutaikhoan") %>' />
-            <br />
+            <br /></asp:Label> 
             <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" CssClass="btn btn-default" />
             &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />
             &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
