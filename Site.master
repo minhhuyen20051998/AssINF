@@ -25,9 +25,9 @@
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
  <style>
-     .sanpham 
+     .sp
      {
-         color:#f00;
+         color:#00ff21;
      }
  </style>
 
