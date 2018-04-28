@@ -41,7 +41,8 @@
         </InsertItemTemplate>
         <ItemTemplate>
            
-              id_Chitiethoadon:
+             
+             id_Chitiethoadon: 
             <asp:Label ID="id_ChitiethoadonLabel" runat="server" Text='<%# Eval("id_Chitiethoadon") %>' />
             <br />
             id_hoadon:
