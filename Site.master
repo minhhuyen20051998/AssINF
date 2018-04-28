@@ -24,6 +24,7 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+<<<<<<< HEAD
  <style>
      .sanpham 
      {
@@ -48,6 +49,14 @@
          color:#f00;
      }
  </style>
+=======
+
+    <style>
+        .abc {
+            color:#ff6a00;
+        }
+    </style>
+>>>>>>> e662e88aa10c69f84307aa3ce7c49d3966a7cbe4
 
 </head>
 <body>
