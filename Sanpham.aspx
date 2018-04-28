@@ -30,6 +30,7 @@
         </EditItemTemplate>
         <InsertItemTemplate>
             id_Sanpham:
+            
             <asp:TextBox ID="id_SanphamTextBox" runat="server" Text='<%# Bind("id_Sanpham") %>' />
             <br />
             id_Danhmuc:
@@ -51,8 +52,8 @@
             &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
         </InsertItemTemplate>
         <ItemTemplate>
-            id_Sanpham:
             
+   
             <asp:Label ID="id_SanphamLabel" runat="server" Text='<%# Eval("id_Sanpham") %>' />
             <br />
             id_Danhmuc:
